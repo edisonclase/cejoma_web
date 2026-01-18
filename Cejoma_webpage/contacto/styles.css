@@ -1,0 +1,149 @@
+/* =========================================
+   ESTILOS ESPECÍFICOS DE CONTACTO
+   ========================================= */
+.contacto_pagina {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contacto_contenedor {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.info_contacto {
+  flex: 1;
+  min-width: 300px;
+}
+
+.titulo_lateral {
+  color: var(--verde-oscuro);
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.subtitulo_contacto {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.metodos_contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.item_contacto {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.item_contacto i {
+  font-size: 1.5rem;
+  color: var(--verde-base);
+  background: var(--verde-claro);
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.item_contacto span {
+  display: block;
+  font-weight: bold;
+  color: var(--verde-oscuro);
+  font-size: 1rem;
+}
+
+.item_contacto p { color: #444; }
+
+/* =========================================
+   REDES SOCIALES (ESTILO INSTITUCIONAL)
+   ========================================= */
+.redes_contacto h3 {
+  font-size: 1.2rem;
+  color: var(--verde-oscuro);
+  margin-bottom: 15px;
+}
+
+.iconos_redes {
+  display: flex;
+  gap: 15px;
+}
+
+.iconos_redes a {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Cambio a colores institucionales */
+  background: var(--verde-oscuro); 
+  color: var(--blanco);
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+/* Efecto hover unificado para todos */
+.iconos_redes a:hover {
+  background: var(--dorado); /* Cambia al dorado de la marca */
+  color: var(--verde-oscuro); /* El icono se pone oscuro para contrastar */
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Eliminamos los colores específicos (fb, ig, yt) para usar el verde */
+.fb, .ig, .yt {
+  background: var(--verde-oscuro) !important;
+}
+
+/* =========================================
+   CONTENEDOR DEL MAPA (CON RELIEVE)
+   ========================================= */
+.mapa_contenedor {
+  flex: 1.2;
+  min-width: 350px;
+}
+
+.caja_mapa_relieve {
+  background: white;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+  overflow: hidden;
+  transition: transform 0.4s ease;
+}
+
+.caja_mapa_relieve:hover {
+  transform: translateY(-5px);
+}
+
+.caja_mapa_relieve iframe { border-radius: 10px; }
+
+.boton_mapa { padding: 20px; text-align: center; }
+
+.boton_mapa a {
+  display: inline-block;
+  background: var(--verde-oscuro);
+  color: var(--dorado);
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.boton_mapa a:hover {
+  background: var(--verde-base);
+  color: white;
+  box-shadow: 0 5px 15px rgba(31, 143, 74, 0.3);
+}
