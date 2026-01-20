@@ -76,13 +76,6 @@ body {
   color: #555;
   font-style: italic;
 }
-
-.logo-link{
-   text-decoration:none;
-   display:flex;
-   align-items:center;
-   gap:15px;
-   color:inherit;
    
 /* NAVEGACIÓN */
 nav a {
@@ -180,6 +173,7 @@ footer span {
     font-size: 0.8rem;
   }
 }
+
 
 
 
