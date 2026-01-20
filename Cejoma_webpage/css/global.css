@@ -54,7 +54,6 @@ body {
   display: flex;
   align-items: center;
   gap: 15px;
-  text-decoration:none;
 }
 
 .marca img {
@@ -174,6 +173,7 @@ footer span {
     font-size: 0.8rem;
   }
 }
+
 
 
 
